@@ -1,4 +1,4 @@
-# Data Warehouse e Análise de Vendas com SQL Server
+## Data Warehouse e Análise de Vendas com SQL Server
 
 ### Sobre o Projeto
 
@@ -136,13 +136,13 @@ Agradeço ao Data with Baraa pela partilha de conhecimento e pelos recursos disp
 **Tutorial de referência**: Assistir ao tutorial no YouTube
 Os créditos relativos aos materiais, conteúdos e recursos originais pertencem aos respetivos autores.
 
-# Contacto
+#### Contacto
 
 Se tiveres interesse em trocar ideias sobre Engenharia de Dados, Análise de Dados ou Business Intelligence, será um prazer conectar-me com outros profissionais e entusiastas da área.
 
-# GitHub: Explora os meus projetos
+#### GitHub: Explora os meus projetos
 
-# E-mail: delciacorreia@gmail.com
+#### E-mail: delciacorreia@gmail.com
 
 Delcia Costa
 Estudante de Engenharia Informática | Analista de Dados | Data Enthusiast
