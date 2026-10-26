@@ -4,10 +4,6 @@
 
 Este projeto consiste na construção de um Data Warehouse moderno utilizando SQL Server, com o objetivo de integrar, transformar e analisar dados de vendas provenientes de dois sistemas de origem: ERP (Enterprise Resource Planning) e CRM (Customer Relationship Management).
 
-A solução segue a Arquitetura Medallion (Bronze, Silver e Gold), organizando os dados em diferentes camadas de processamento, desde a ingestão dos dados brutos até à disponibilização de dados estruturados e prontos para análises de negócio.
-
-O projeto abrange todo o processo de Engenharia de Dados, incluindo a ingestão, limpeza, transformação, integração e modelagem dos dados, culminando no desenvolvimento de análises SQL para gerar insights sobre clientes, produtos e desempenho das vendas.
-
 ---
 
 ### Objetivos do Projeto
@@ -39,16 +35,6 @@ Esta camada é responsável pela preparação e melhoria da qualidade dos dados 
 #### 🥇 3. Camada Ouro — Dados Analíticos
 
 A camada Ouro disponibiliza dados organizados e preparados para responder às necessidades analíticas do negócio. Nesta fase, os dados são estruturados num modelo dimensional baseado num esquema estrela (Star Schema), composto por tabelas de factos e dimensões, facilitando a criação de consultas SQL, relatórios e dashboards.
-
----
-
-### Pipeline de ETL
-
-O processo de ETL é responsável por transportar os dados desde os sistemas de origem até ao modelo analítico final.
-
-**Extração (Extract)**: leitura e ingestão dos ficheiros CSV provenientes dos sistemas ERP e CRM.
-**Transformação (Transform)**: limpeza, padronização, validação e integração dos dados.
-**Carregamento (Load)**: armazenamento dos dados nas respetivas camadas do Data Warehouse, disponibilizando informação estruturada para análise.
 
 ---
 
@@ -122,19 +108,16 @@ Para uma visão completa da implementação, consulta os ficheiros e scripts dis
 
 #### Sobre Mim
 
-Olá! Sou a Delcia Costa, estudante de Engenharia Informática, com foco na área de Dados.
+Delcia Costa
+Estudante de Engenharia Informática | Analista de Dados | Data Enthusiast
 
 Atualmente, trabalho como Analista de Dados numa empresa de construção civil e também desenvolvo projetos freelance para empresas em fase inicial, ajudando-as a compreender melhor o desempenho do negócio através de dashboards, relatórios e análises de dados.
 
-Tenho interesse em transformar dados em informação relevante para apoiar a tomada de decisões, melhorar processos e identificar oportunidades de crescimento.
-
-Este projeto representa uma oportunidade para aprofundar os meus conhecimentos em Engenharia de Dados, SQL, Data Warehousing, modelagem dimensional e Business Intelligence.
 
 #### Créditos e Agradecimentos
 
 Este projeto foi desenvolvido com inspiração nos conteúdos e materiais educativos de Data with Baraa, que contribuíram para a aprendizagem e compreensão dos conceitos de Engenharia de Dados, arquitetura Medallion, construção de Data Warehouses e modelagem dimensional.
 
-Agradeço ao Data with Baraa pela partilha de conhecimento e pelos recursos disponibilizados à comunidade de dados.
 
 **Criadora deste projeto**: Delcia Costa
 **Autor de referência**: Data with Baraa
@@ -148,8 +131,5 @@ Se tiveres interesse em trocar ideias sobre Engenharia de Dados, Análise de Dad
 #### GitHub: Explora os meus projetos
 
 #### E-mail: delciacorreia@gmail.com
-
-Delcia Costa
-Estudante de Engenharia Informática | Analista de Dados | Data Enthusiast
 
 ⭐ Se este projeto te for útil, considera deixar uma estrela no repositório!
