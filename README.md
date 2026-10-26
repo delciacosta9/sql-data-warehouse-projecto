@@ -36,7 +36,7 @@ Esta camada é responsável pela preparação e melhoria da qualidade dos dados 
 
 A camada Ouro disponibiliza dados organizados e preparados para responder às necessidades analíticas do negócio. Nesta fase, os dados são estruturados num modelo dimensional baseado num esquema estrela (Star Schema), composto por tabelas de factos e dimensões, facilitando a criação de consultas SQL, relatórios e dashboards.
 
-🔄 Pipeline de ETL
+Pipeline de ETL
 
 O processo de ETL é responsável por transportar os dados desde os sistemas de origem até ao modelo analítico final.
 
@@ -109,7 +109,7 @@ Tenho interesse em transformar dados em informação relevante para apoiar a tom
 
 Este projeto representa uma oportunidade para aprofundar os meus conhecimentos em Engenharia de Dados, SQL, Data Warehousing, modelagem dimensional e Business Intelligence.
 
-🙏 Créditos e Agradecimentos
+Créditos e Agradecimentos
 
 Este projeto foi desenvolvido com inspiração nos conteúdos e materiais educativos de Data with Baraa, que contribuíram para a aprendizagem e compreensão dos conceitos de Engenharia de Dados, arquitetura Medallion, construção de Data Warehouses e modelagem dimensional.
 
@@ -120,11 +120,13 @@ Autor de referência: Data with Baraa
 Tutorial de referência: Assistir ao tutorial no YouTube
 Os créditos relativos aos materiais, conteúdos e recursos originais pertencem aos respetivos autores.
 
-📬 Contacto
+Contacto
 
 Se tiveres interesse em trocar ideias sobre Engenharia de Dados, Análise de Dados ou Business Intelligence, será um prazer conectar-me com outros profissionais e entusiastas da área.
-💻 GitHub: Explora os meus projetos
-📧 E-mail: delciacorreia@gmail.com
+
+GitHub: Explora os meus projetos
+
+E-mail: delciacorreia@gmail.com
 
 Delcia Costa
 Estudante de Engenharia Informática | Analista de Dados | Data Enthusiast
