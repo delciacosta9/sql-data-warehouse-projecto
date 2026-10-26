@@ -99,10 +99,15 @@ As análises permitem às partes interessadas acompanhar indicadores relevantes,
 ### O projeto foi concebido para cumprir os seguintes requisitos:
 
 Integração de dados de duas fontes: ERP e CRM.
+
 Tratamento de problemas de qualidade antes da análise.
+
 Consolidação dos dados num modelo analítico único.
+
 Utilização do conjunto de dados mais recente, sem necessidade de historização dos registos.
+
 Documentação da arquitetura e do modelo de dados.
+
 Disponibilização de informação para análises SQL e apoio à decisão.
 
 ---
