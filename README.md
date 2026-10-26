@@ -8,13 +8,7 @@ Este projeto consiste na construção de um Data Warehouse moderno utilizando SQ
 
 ### Objetivos do Projeto
 
-Construir um Data Warehouse moderno utilizando SQL Server.
-Integrar dados provenientes de sistemas ERP e CRM.
-Implementar pipelines de ETL (Extract, Transform, Load).
-Garantir a qualidade, consistência e fiabilidade dos dados.
-Desenvolver um modelo dimensional baseado num esquema estrela (Star Schema).
-Criar análises SQL para apoiar a tomada de decisões estratégicas.
-Documentar a arquitetura e o modelo de dados para facilitar a compreensão e a manutenção da solução.
+Desenvolver um Data Warehouse moderno utilizando o SQL Server para consolidar os dados de vendas, permitindo a elaboração de relatórios analíticos e uma tomada de decisões mais informada.
 
 ---
 
