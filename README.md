@@ -1,6 +1,6 @@
 # Data Warehouse e Análise de Vendas com SQL Server
 
-# Sobre o Projeto
+### Sobre o Projeto
 
 Este projeto consiste na construção de um Data Warehouse moderno utilizando SQL Server, com o objetivo de integrar, transformar e analisar dados de vendas provenientes de dois sistemas de origem: ERP (Enterprise Resource Planning) e CRM (Customer Relationship Management).
 
@@ -10,7 +10,7 @@ O projeto abrange todo o processo de Engenharia de Dados, incluindo a ingestão,
 
 ---
 
-# Objetivos do Projeto
+### Objetivos do Projeto
 
 Construir um Data Warehouse moderno utilizando SQL Server.
 Integrar dados provenientes de sistemas ERP e CRM.
@@ -22,27 +22,27 @@ Documentar a arquitetura e o modelo de dados para facilitar a compreensão e a m
 
 ---
 
-# Arquitetura de Dados
+### Arquitetura de Dados
 
 A arquitetura do projeto segue o modelo Medallion, composto por três camadas principais:
 <img width="1352" height="631" alt="Datawarehouse" src="https://github.com/user-attachments/assets/b4acdcca-5caa-4c90-9bfa-306d0f89bbd5" />
 
 
-# 🥉 1. Camada Bronze — Dados Brutos
+#### 🥉 1. Camada Bronze — Dados Brutos
 
 Responsável pela ingestão e armazenamento dos dados originais, provenientes dos sistemas ERP e CRM, disponibilizados em ficheiros CSV. Nesta camada, os dados são carregados para o SQL Server, preservando a estrutura e os valores recebidos das fontes de origem, de forma a manter a rastreabilidade do processo de ingestão.
 
-# 🥈 2. Camada Prata — Dados Transformados
+#### 🥈 2. Camada Prata — Dados Transformados
 
 Esta camada é responsável pela preparação e melhoria da qualidade dos dados antes da sua utilização analítica. São aplicadas regras de transformação para corrigir inconsistências, uniformizar formatos e garantir a integridade dos dados provenientes dos diferentes sistemas.
 
-# 🥇 3. Camada Ouro — Dados Analíticos
+#### 🥇 3. Camada Ouro — Dados Analíticos
 
 A camada Ouro disponibiliza dados organizados e preparados para responder às necessidades analíticas do negócio. Nesta fase, os dados são estruturados num modelo dimensional baseado num esquema estrela (Star Schema), composto por tabelas de factos e dimensões, facilitando a criação de consultas SQL, relatórios e dashboards.
 
 ---
 
-# Pipeline de ETL
+### Pipeline de ETL
 
 O processo de ETL é responsável por transportar os dados desde os sistemas de origem até ao modelo analítico final.
 
@@ -52,7 +52,7 @@ O processo de ETL é responsável por transportar os dados desde os sistemas de 
 
 ---
 
-# Modelagem de Dados
+### Modelagem de Dados
 
 O modelo analítico segue a abordagem dimensional, utilizando o esquema estrela para simplificar as consultas e melhorar a compreensão dos dados.
 
@@ -63,28 +63,28 @@ Após a construção do Data Warehouse, são desenvolvidas análises com SQL par
 
 ---
 
-# Principais áreas de análise
+### Principais áreas de análise
 
-# Comportamento dos Clientes
+#### Comportamento dos Clientes
 
 Análise do comportamento de compra.
 Identificação dos clientes com maior contribuição para as vendas.
 Avaliação do desempenho dos clientes com base nas métricas disponíveis.
 
-# Desempenho dos Produtos
+#### Desempenho dos Produtos
 
 Identificação dos produtos com melhor desempenho.
 Comparação dos resultados de vendas entre produtos.
 Análise da contribuição dos produtos para o desempenho comercial.
 
-# Tendências de Vendas
+#### Tendências de Vendas
 
 Análise do desempenho global das vendas.
 Identificação de padrões e tendências nos dados disponíveis.
 Comparação de métricas de vendas para apoiar decisões estratégicas.
 As análises permitem às partes interessadas acompanhar indicadores relevantes, identificar oportunidades de melhoria e tomar decisões fundamentadas em dados.
 
-# Tecnologias e Ferramentas
+#### Tecnologias e Ferramentas
 
 - **SQL Server**: armazenamento e gestão dos dados.
 - **SQL**: transformação, validação, modelagem e análise dos dados.
@@ -96,7 +96,7 @@ As análises permitem às partes interessadas acompanhar indicadores relevantes,
 
 ---
 
-# O projeto foi concebido para cumprir os seguintes requisitos:
+### O projeto foi concebido para cumprir os seguintes requisitos:
 
 Integração de dados de duas fontes: ERP e CRM.
 Tratamento de problemas de qualidade antes da análise.
@@ -107,7 +107,7 @@ Disponibilização de informação para análises SQL e apoio à decisão.
 
 ---
 
-# Documentação do Projeto
+### Documentação do Projeto
 
 A documentação tem como objetivo facilitar a compreensão da solução, tanto para as partes interessadas do negócio como para as equipas técnicas.
 Inclui a descrição da arquitetura de dados, das etapas de processamento, das regras de transformação e da estrutura do modelo dimensional.
@@ -115,7 +115,7 @@ Para uma visão completa da implementação, consulta os ficheiros e scripts dis
 
 ---
 
-# Sobre Mim
+#### Sobre Mim
 
 Olá! Sou a Delcia Costa, estudante de Engenharia Informática, com foco na área de Dados.
 
@@ -125,7 +125,7 @@ Tenho interesse em transformar dados em informação relevante para apoiar a tom
 
 Este projeto representa uma oportunidade para aprofundar os meus conhecimentos em Engenharia de Dados, SQL, Data Warehousing, modelagem dimensional e Business Intelligence.
 
-# Créditos e Agradecimentos
+#### Créditos e Agradecimentos
 
 Este projeto foi desenvolvido com inspiração nos conteúdos e materiais educativos de Data with Baraa, que contribuíram para a aprendizagem e compreensão dos conceitos de Engenharia de Dados, arquitetura Medallion, construção de Data Warehouses e modelagem dimensional.
 
